@@ -9,6 +9,34 @@ body {
   justify-content: center;
 }
 
+div {
+  height: 50vh;
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+div:target {
+  display: flex;
+}
+
+div + div {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
 ol {
   /* list-style: linear-gradient(45deg, red, yellow); */
   list-style-type: none;
